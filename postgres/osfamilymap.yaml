@@ -17,6 +17,7 @@ Debian:
   pkg_repo:
     humanname: PostgreSQL Official Repository
     file: /etc/apt/sources.list.d/pgdg.list
+    consolidate: True
   pkg_repo_keyring: 'https://download.postgresql.org/pub/repos/apt/pool/main/p/pgdg-keyring/pgdg-keyring_2018.2_all.deb'
   pkg_repo_keyid: ACCC4CF8
     {% if repo.use_upstream_repo == true %}
